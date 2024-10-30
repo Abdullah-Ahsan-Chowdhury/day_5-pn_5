@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", serif;
+}
+body {
+    background-color: #CDCDCD;
+}
+.main {
+    width: 1200px;
+    height: 120vh;
+    margin: auto;
+    background-color: #fff;
+}
+.main .header {
+    display: flex;
+}
+.main .header .image {
+    width: 300px;
+    height: 200px;
+    padding: 20px 20px 20px 0px;
+}
+.main .header .image img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main .header .details {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.main .header .details h1 {
+    color: #C78A54;
+}
+.main .header .details p, span {
+    color: #5b5b5b;
+}
+.main .body {
+    width: 100%;
+}
+.main .body .about {
+    width: 90%;
+    background-color: #E4E3E1;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.main .body .about h2 {
+    color: #fff;
+    background-color: #C78A54;
+    width: 15%;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}   
+.main .body .about p {
+    color: #5b5b5b;
+    font-size: 18px;
+}
+.main .body .education {
+    width: 40%;
+    background-color: #E4E3E1;
+    margin: 30px;
+    padding: 30px 0px 30px 30px;
+    border-radius: 20px;
+    float: left;
+}
+.main .body .education h2 {
+    color: #fff;
+    background-color: #C78A54;
+    width: 35%;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}       
+.main .body .educaton p {
+    color: #5b5b5b;
+    font-size: 18px;
+}
+.main .body .skills {
+    width: 40%;
+    background-color: #E4E3E1;
+    padding: 30px;
+    border-radius: 20px;
+    float: left;
+}
+.main .body .skills h2 {
+    color: #fff;
+    background-color: #C78A54;
+    width: 35%;
+    text-align: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+} 
+.main .body .skills ul {
+    color: #5b5b5b;
+    font-size: 18px;
+    margin-left: 20px;
+}
